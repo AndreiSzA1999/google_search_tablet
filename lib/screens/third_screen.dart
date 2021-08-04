@@ -16,7 +16,7 @@ class ThirdPage extends StatelessWidget {
                 "https://flutter.dev/docs/cookbook/navigation/navigation-basics",
             numeroPestanas: "3"),
         Expanded(
-          child: Image.network(
+          child: Image.asset(
             "$url",
             fit: BoxFit.contain,
           ),
